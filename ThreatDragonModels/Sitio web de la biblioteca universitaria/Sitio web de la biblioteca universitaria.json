@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 290,
-              "y": -330
+              "x": 303.75,
+              "y": -410
             },
             "size": {
               "width": 112.5,
@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "d31a3c11-0275-4688-a6a4-08eb989fec66",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Usuario",
@@ -154,8 +154,8 @@
           },
           {
             "position": {
-              "x": 652,
-              "y": -330
+              "x": 620,
+              "y": -400
             },
             "size": {
               "width": 112.5,
@@ -173,6 +173,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -256,7 +257,6 @@
               ]
             },
             "id": "065c7b8c-ea66-4ff3-ad89-2f62ea6bc5f7",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Biblioteca",
@@ -308,6 +308,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -391,7 +392,6 @@
               ]
             },
             "id": "c79c05b4-6ae7-497c-800c-21fe063ad98f",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": " Sitio web  biblioteca ",
@@ -453,6 +453,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -536,7 +537,6 @@
               ]
             },
             "id": "b0d5cbde-31c8-4a99-9037-c3a719d4ac55",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Páginas web  en disco",
@@ -599,6 +599,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -682,7 +683,6 @@
               ]
             },
             "id": "3cb6736c-6f3b-4716-beaf-3d53c1bea88e",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Web Application Config",
@@ -745,6 +745,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -828,7 +829,6 @@
               ]
             },
             "id": "b6e6f8d3-7de5-4a43-bc08-473fb5aeef3f",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "Base de datos",
@@ -1150,7 +1150,12 @@
               "cell": "065c7b8c-ea66-4ff3-ad89-2f62ea6bc5f7",
               "port": "a238a625-e9c0-4a7e-b2d5-4442e0957c89"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 676,
+                "y": -200
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1381,6 +1386,70 @@
               {
                 "x": 790,
                 "y": 50
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Usuario/Web server límite",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Usuario/Web server límite"
+            ],
+            "id": "317ab356-edb7-481b-8a2b-77de0f8bf136",
+            "source": {
+              "x": 300,
+              "y": -310
+            },
+            "target": {
+              "x": 750,
+              "y": -300
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": -270
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Límite web server/Db",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Límite web server/Db"
+            ],
+            "id": "5114e4b3-98f1-4334-afdb-eb1237e26272",
+            "source": {
+              "x": 870,
+              "y": -170
+            },
+            "target": {
+              "x": 870,
+              "y": 90
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": -10
               }
             ]
           }
