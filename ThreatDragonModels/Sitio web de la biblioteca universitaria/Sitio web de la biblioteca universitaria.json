@@ -427,13 +427,455 @@
                 "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
+            }
+          },
+          {
+            "position": {
+              "x": 300,
+              "y": 90
             },
-            "tools": {
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Páginas web  en disco"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
               "items": [
-                "boundary",
-                "button-remove"
+                {
+                  "group": "top",
+                  "id": "ae010794-dd62-406a-8296-b8d74d006c52"
+                },
+                {
+                  "group": "right",
+                  "id": "f4ea830e-d422-4bc9-b2db-f47a52ec43c5"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ae9bb33f-0bbb-43e1-8949-aee6f7614e35"
+                },
+                {
+                  "group": "left",
+                  "id": "3fecd0a2-d6e8-449d-95a2-0452623515b5"
+                }
+              ]
+            },
+            "id": "b0d5cbde-31c8-4a99-9037-c3a719d4ac55",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "Páginas web  en disco",
+              "description": " Páginas físicas almacenadas en el \ndisco.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "a1b615e8-aeef-4407-82df-43a49842acfe",
+                  "title": " Modificación sin autorización",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": " Un atacante podría modificar \nlas páginas web sin \nautorización.",
+                  "mitigation": "Las páginas solo tienen \nacceso de lectura. \nÚnicamente el usuario \nadministrador puede tener \nacceso de escritura.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
               ],
-              "name": null
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 644.5,
+              "y": 90
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Web Application Config"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ae010794-dd62-406a-8296-b8d74d006c52"
+                },
+                {
+                  "group": "right",
+                  "id": "f4ea830e-d422-4bc9-b2db-f47a52ec43c5"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ae9bb33f-0bbb-43e1-8949-aee6f7614e35"
+                },
+                {
+                  "group": "left",
+                  "id": "3fecd0a2-d6e8-449d-95a2-0452623515b5"
+                }
+              ]
+            },
+            "id": "3cb6736c-6f3b-4716-beaf-3d53c1bea88e",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Store",
+              "name": "Web Application Config",
+              "description": "Archivo de configuración de la \naplicación",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "bfd8d8ef-87aa-4b50-90bc-f7e2b9a9804b",
+                  "title": " Las credenciales deben estar cifradas",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": " La configuración de la \naplicación web almacena las \ncredenciales utilizadas por la \naplicación web para acceder a \nla cola de mensajes. Un \natacante podría robarlos y \nutilizarlos para leer datos \nconfidenciales o colocar \nmensajes dudosos en la cola. ",
+                  "mitigation": "Las credenciales \nalmacenadas deben estar \ncifradas.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 2
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 900,
+              "y": -60
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Base de datos"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ae010794-dd62-406a-8296-b8d74d006c52"
+                },
+                {
+                  "group": "right",
+                  "id": "f4ea830e-d422-4bc9-b2db-f47a52ec43c5"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ae9bb33f-0bbb-43e1-8949-aee6f7614e35"
+                },
+                {
+                  "group": "left",
+                  "id": "3fecd0a2-d6e8-449d-95a2-0452623515b5"
+                }
+              ]
+            },
+            "id": "b6e6f8d3-7de5-4a43-bc08-473fb5aeef3f",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Store",
+              "name": "Base de datos",
+              "description": " El servidor de la base de datos será \nMySQL y se ejecutará en un \nservidor Linux. Este servidor será \nreforzado según el estándar de \nprotección de servidores de la \nuniversidad. Esto incluirá la \ninstalación de los últimos parches de \nseguridad del sistema operativo y de \nlas aplicaciones. ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "d651b63b-e9e1-4c58-84bb-cc30f5fd19d6",
+                  "title": " Acceso no autorizado",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": " Un atacante podría enviar una \nconsulta a la BD.",
+                  "mitigation": "Requerir que todas las \nconsultas sean \nautenticadas. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "771811e5-df78-4b72-b77e-675884c5e297",
+                  "title": " Robo de credenciales",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": " Un atacante podría obtener \nlas credenciales de la base de \ndatos y utilizarlas para \nrealizar consultas no \nautorizadas",
+                  "mitigation": " Utilice un firewall para \nrestringir el acceso a la \nbase de datos únicamente \na la dirección IP del \ntrabajador en segundo \nplano.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
             }
           }
         ]
@@ -441,6 +883,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "Guillermo Humberto Vera Amaro",
-    "threatTop": 3
+    "threatTop": 7
   }
 }
