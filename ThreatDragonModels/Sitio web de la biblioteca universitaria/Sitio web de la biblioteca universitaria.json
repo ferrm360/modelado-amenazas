@@ -151,12 +151,296 @@
                 "repudiation": 0
               }
             }
+          },
+          {
+            "position": {
+              "x": 652,
+              "y": -330
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Biblioteca"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "593788c4-5c5e-4d01-a985-1c9bed40223b"
+                },
+                {
+                  "group": "right",
+                  "id": "2d271f10-094c-4098-a8a5-e61f465ef8af"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a238a625-e9c0-4a7e-b2d5-4442e0957c89"
+                },
+                {
+                  "group": "left",
+                  "id": "ce57182e-f102-479f-9c6a-cececad306ff"
+                }
+              ]
+            },
+            "id": "065c7b8c-ea66-4ff3-ad89-2f62ea6bc5f7",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Biblioteca",
+              "description": " (4) Bibliotecario.",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": false,
+              "threats": [
+                {
+                  "id": "c1bb176e-7200-4554-a19c-d054fbd51096",
+                  "title": "Suplantación de identidad",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Spoofing",
+                  "description": " Acción de amenaza destinada \na acceder y utilizar las \ncredenciales de otro usuario, \ncomo el nombre de usuario y \nla contraseña.",
+                  "mitigation": "1. Autenticación \nadecuada \n2. Proteger datos secretos \n3. No almacenar secretos",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 500,
+              "y": -170
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": " Sitio web  biblioteca "
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "98aab69d-e0be-43ca-878d-fb1c3361048d"
+                },
+                {
+                  "group": "right",
+                  "id": "fad2e38d-2d2b-4b9a-8132-b574fd91067a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c159a2df-7d32-4e0f-9d40-b127df02fb9c"
+                },
+                {
+                  "group": "left",
+                  "id": "ffb259ae-d97a-4196-b383-0deb7765183c"
+                }
+              ]
+            },
+            "id": "c79c05b4-6ae7-497c-800c-21fe063ad98f",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": " Sitio web  biblioteca ",
+              "description": "El sitio web de la biblioteca \nuniversitaria se ejecutará en un \nservidor Linux con Apache. Este \nservidor será reforzado según el \nestándar de protección de servidores \nde la universidad. ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "ca901704-a0aa-435f-9695-f4d8dc8fe202",
+                  "title": "Denegación de  servicio",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": " Un atacante podría denegar el acceso a \nusuarios válidos, haciendo que el \nservidor web no esté disponible o sea \ninutilizable temporalmente por medio \ndel envío de múltiples peticiones \nsimultaneas. ",
+                  "mitigation": "Se utiliza un balanceo de \ncargas en el servidor web. \nSe monitorean las \ndirecciones IP de los \nclientes y al encontrar un \nposible ataque, se bloquea \nel acceso. \nSe considera contratar un \nservicio de VPN para \nocultar la dirección IP pública a los \nclientes.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           }
         ]
       }
     ],
     "diagramTop": 2,
     "reviewer": "Guillermo Humberto Vera Amaro",
-    "threatTop": 1
+    "threatTop": 3
   }
 }
